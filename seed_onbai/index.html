@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <style rel="stylesheet" href="./style.css"></style> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class = "location">
+        <div  class = "bg">
+            <h1>CRUD Application</h1>
+            <div class = "input_box">
+                <div class = "style_for_input_box">
+                    <label for="rollNo" >RollNo:<br></label>
+                    <input type="text" id="rollNo">
+                  </div>
+                  <div class = "style_for_input_box">
+                    <label for="name">Name: <br></label>
+                    <input type="text" id="name">
+                  </div>
+                  <div class = "style_for_input_box">
+                    <label for="gender">Gender: <br></label>
+                    <input type="text" id="gender">
+                  </div>
+                  <div class = "style_for_input_box">
+                    <label for="address">Address:<br> </label>
+                    <input type="text" id="address">
+                  </div>
+      
+            </div>
+            <div>
+              <button>Insert</button>
+              <button>Read</button>
+              <button>Update</button>
+              <button>Delete</button>
+            </div>
+        </div>        
+    </section>
+  <table class = "table_layout">
+    <thead>
+      <tr>
+        <th>RollNo</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Data will render here -->
+    </tbody>
+  </table>
+  <script src = ".\\try\\test.js" type = "module"> </script>
+</body>
+
+</html>
